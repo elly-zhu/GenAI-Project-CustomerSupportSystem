@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "ColfaxAI";
+  src: url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff2)
+      format("woff2"),
+    url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ColfaxAI";
+  src: url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff2) format("woff2"),
+    url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff) format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+body,
+input {
+  font-size: 16px;
+  line-height: 24px;
+  color: #353740;
+  font-family: "ColfaxAI", Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+.icon {
+  width: 34px;
+}
+h3 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #202123;
+  margin: 16px 0 40px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+input[type="text"],
+input[type="number"] {
+  padding: 12px 16px;
+  border: 1px solid #10a37f;
+  border-radius: 4px;
+  margin-bottom: 6px;
+}
+::placeholder {
+  color: #8e8ea0;
+  opacity: 1;
+}
+input[type="submit"] {
+  padding: 12px 35px;
+  color: #fff;
+  background-color: #10a37f;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+.result {
+  font-weight: bold;
+  margin-top: 40px;
+}
+.section {
+  text-align: center;
+  width: 80%;
+  margin: 20px 0px;
+  padding: 20px;
+  border: #10a37f 1px solid;
+  border-radius: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 850px;
+  margin: auto;
+}
+
+.setupPanel form {
+  margin: auto;
+  text-align: center;
+}
+.setupPanel input[type="submit"] {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.outputPanel {
+  background: lightgray;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.outputPanel .container {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.outputPanel p {
+  margin-block-end: unset;
+  margin-block-start: unset;
+}
+
+.setupPanel .settingItem input {
+  width: 318px;
+}
+
+.setupPanel .settingItem label {
+  font-size: smaller;
+}
+
+.setupPanel .settingItem {
+  text-align: left;
+}
+
+.row {
+  display: inline-flex;
+  width: 100%;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.settingItem {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex: 1;
+}

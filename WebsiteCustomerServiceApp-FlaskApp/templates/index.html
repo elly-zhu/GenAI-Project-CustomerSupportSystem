@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+  <title>OpenAI Quickstart</title>
+  <link
+    rel="shortcut icon"
+    href="{{ url_for('static', filename='question.png') }}"
+  />
+  <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+</head>
+
+<body>
+  <img src="{{ url_for('static', filename='question.png') }}" class="icon" />
+  <h3>Ask Me</h3>
+  <div class="section">
+    <h1>Step1: Crawling the website </h1>
+    <h4>If you already have the crawling file, skip the step</h4>
+    <div class="setupPanel">
+      <form action="/step1" method="post">
+        <div class="flex-container">
+          <div class="row">
+            <div class="settingItem">
+              <label>Please enter the domain name, eg: openai.com</label>
+              <input type="text" name="domainName" placeholder="Domain Name" value="openai.com"/>
+            </div>
+            <div class="settingItem">
+              <label>Please enter the website full url, eg: https://openai.com/about</label>
+              <input type="text" name="fullUrl" placeholder="Full Url" value="https://openai.com/about"/>
+            </div>
+          </div>
+          <div class="row">
+            <div class="settingItem">
+              <label>Enter the scraped file dest path, eg: processed/scraped.csv</label>
+              <input type="text" name="scrapedFilePath" placeholder="Scaped File Dest Path" value="processed/scraped.csv"/>
+            </div>
+            <div class="settingItem">
+              <label>Enter the limit of number of links you would like to crawl</label>
+              <input type="text" name="limit" placeholder="Limit" value="5"/>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Start Crawling" />
+          </div>
+        </div>
+      </form>
+    </div>
+    {% if crawler_output %}
+      <div class="outputPanel">
+        <h2>Output from crawler.py:</h2>
+        <div class="container">
+          {% for line in crawler_output %}
+              <p>{{line}}</p>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+
+
+
+  <div class="section">
+    <h1>Step2: Create embeddings </h1>
+    <h4>If you already have the embeddings file, skip the step</h4>
+    <form action="/step2" method="post">
+      <div>Please enter the scraped csv file name <input type="text" name="scrapedFilePath" placeholder="Domain Name" value="processed/scraped.csv"/></div>
+      <div><input type="submit" value="Generate Embedding File" /></div>
+    </form>
+    {% if embedding_output %}
+      <div class="outputPanel">
+        <h2>Output from embedding.py:</h2>
+        <div class="container">
+          {% for line in embedding_output %}
+              <p>{{line}}</p>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+
+
+
+  <div class="section">
+    <h1>Step3: Ask questions </h1>
+    <form action="/step3" method="post">
+      <div>Please enter the embedding csv file name</div>
+      <input type="text" name="embeddingFile" placeholder="Enter the embedding csv filename" value="processed/embedding.csv"/>
+      <input type="text" name="question" placeholder="Enter a question" required />
+      <input type="submit" value="Generate response" />
+    </form>
+    {% if answer_output %}
+      <div class="outputPanel">
+        <h2>Output from answer.py:</h2>
+        <div class="container">
+          {% for line in answer_output %}
+            <p>{{line}}</p>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  </div> 
+
+  <script>
+  </script>
+</body>
