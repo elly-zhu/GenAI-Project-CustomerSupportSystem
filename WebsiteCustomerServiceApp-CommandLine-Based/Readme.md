@@ -1,6 +1,8 @@
-CommandLine Based Chat Console
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/30459170-8dfe-42a1-87d1-31b571ec2cf9/4be9218d-31f2-4949-8312-c97fd3b4aa0d/Untitled.png)
-Crawler Configurator
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/30459170-8dfe-42a1-87d1-31b571ec2cf9/f9fe0647-86a3-4e97-a411-19423068252b/Untitled.png)
-Embedding File Generator
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/30459170-8dfe-42a1-87d1-31b571ec2cf9/245fb42c-87ca-41ce-874b-bbd798a1c8dd/Untitled.png)
+#### CommandLine Based Chat Console
+![image](https://github.com/elly-zhu/Generative-AI-Driven-App-Development/assets/22209839/030e4b85-2736-4bf1-8717-82403fdd300d)
+
+#### Crawler Configurator
+![image](https://github.com/elly-zhu/Generative-AI-Driven-App-Development/assets/22209839/d92d1d54-01ab-4c3e-99f1-1338df3e2bf0)
+
+#### Embedding File Generator
+![image](https://github.com/elly-zhu/Generative-AI-Driven-App-Development/assets/22209839/1f166acf-ee39-4a62-898e-0a787d71abb4)
