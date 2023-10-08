@@ -26,5 +26,9 @@ Implementing in different formats highlights versatility and ease of integration
 ### Screen captures / Demos
  - CommandLine App
  - Python Flask App
- - [NodeJS App Demo](https://github.com/elly-zhu/GenAI-Project-CustomerSupportSystem/assets/22209839/76258f66-ecde-4b5e-a7f6-845ecb96f0cf)
+   - ![FlaskApp](https://github.com/elly-zhu/GenAI-Project-CustomerSupportSystem/assets/22209839/1db8ed55-eac4-4101-b4cc-ac8eb142d7bc)
+ - NodeJS App
+   - [Demo Recording](https://github.com/elly-zhu/GenAI-Project-CustomerSupportSystem/assets/22209839/76258f66-ecde-4b5e-a7f6-845ecb96f0cf)
+   - ![image](https://github.com/elly-zhu/GenAI-Project-CustomerSupportSystem/assets/22209839/192a0c12-f3cf-4a86-999c-e6b281695900)
+
 
