@@ -19,11 +19,20 @@ There are three implementations for this initiative to showcase the integration 
  - Command-based Application
  - Python Flask Application
  - Node.js Application
-
+speed of 
 Implementing in different formats highlights versatility and ease of integration. Showcasing command-based, Python Flask, and Node.js applications emphasizes adaptability and accessibility, appealing to a broader audience
 
 
 ### Screen captures / Demos
  - CommandLine App
+   - <img width="789" alt="commandLineBased1" src="https://github.com/elly-zhu/GenAI-Project-CustomerSupportSystem/assets/22209839/5ad19879-af8d-4e43-ac7e-120e36be5e0d">
+   - ![image](https://github.com/elly-zhu/GenAI-Project-CustomerSupportSystem/assets/22209839/b7867039-0913-4a5c-a252-66fdd680a804) 
  - Python Flask App
+   - ![FlaskApp](https://github.com/elly-zhu/GenAI-Project-CustomerSupportSystem/assets/22209839/1db8ed55-eac4-4101-b4cc-ac8eb142d7bc)
  - NodeJS App
+   - [Demo Recording](https://github.com/elly-zhu/GenAI-Project-CustomerSupportSystem/assets/22209839/76258f66-ecde-4b5e-a7f6-845ecb96f0cf)
+     - Please note that the speed of generating the embedding file depends on the rate limit set on the user's OpenAI API account, the user might wait longer during actual local execution.
+   - ![image](https://github.com/elly-zhu/GenAI-Project-CustomerSupportSystem/assets/22209839/192a0c12-f3cf-4a86-999c-e6b281695900)
+
+
+
