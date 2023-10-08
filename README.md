@@ -27,3 +27,5 @@ Implementing in different formats highlights versatility and ease of integration
  - CommandLine App
  - Python Flask App
  - NodeJS App
+  -  [node-app-screen-capture.webm](https://github.com/elly-zhu/GenAI-Project-CustomerSupportSystem/assets/22209839/76258f66-ecde-4b5e-a7f6-845ecb96f0cf)
+
