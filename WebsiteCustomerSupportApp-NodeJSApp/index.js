@@ -95,24 +95,6 @@ app.post("/answer", (req, res) => {
   }
 });
 
-// function runBy(scriptName, ...args) {
-//   return new Promise(function (success, nosuccess) {
-//     // Modify this array to include any additional arguments you want to pass to the Python script
-//     const pyArgs = [scriptName, ...args];
-
-//     const pyprog = spawn("python3", pyArgs);
-
-//     pyprog.stdout.on("data", function (data) {
-//       success(data);
-//     });
-
-//     pyprog.stderr.on("data", (data) => {
-//       nosuccess(data);
-//     });
-
-//   });
-// }
-
 async function runBy(scriptName, ...args) {
   return new Promise(async (resolve, reject) => {
     try {
