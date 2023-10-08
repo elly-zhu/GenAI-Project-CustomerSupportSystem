@@ -25,7 +25,7 @@ Implementing in different formats highlights versatility and ease of integration
 
 ### Screen captures / Demos
  - CommandLine App
-   - ![question](https://github.com/elly-zhu/GenAI-Project-CustomerSupportSystem/assets/22209839/6c6192af-5802-4622-843c-d6c77d080c1b)
+   - <img width="789" alt="commandLineBased1" src="https://github.com/elly-zhu/GenAI-Project-CustomerSupportSystem/assets/22209839/5ad19879-af8d-4e43-ac7e-120e36be5e0d">
    - ![image](https://github.com/elly-zhu/GenAI-Project-CustomerSupportSystem/assets/22209839/b7867039-0913-4a5c-a252-66fdd680a804) 
  - Python Flask App
    - ![FlaskApp](https://github.com/elly-zhu/GenAI-Project-CustomerSupportSystem/assets/22209839/1db8ed55-eac4-4101-b4cc-ac8eb142d7bc)
